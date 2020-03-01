@@ -27,6 +27,14 @@ p {
   line-height: 1.5;
 }
 
+.projects img:hover {
+  opacity: 75%;
+}
+
+footer img:hover {
+  opacity: 75%;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
