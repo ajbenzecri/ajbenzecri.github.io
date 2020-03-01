@@ -320,22 +320,29 @@
   
     h1 {
       color: #3ea3ca;
-      text-align: center;
+      text-align: left;
       text-transform: uppercase;
       font-size: 42px;
       padding-top: 20px;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     h2 {
       color: #515050;
-      text-align: center;
+      text-align: left;
       font-size: 27px;
       overflow: hidden;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     h2 a {
       text-decoration: none;
       color: #515050;
+
     }
   
     h3 {
@@ -459,11 +466,16 @@
 
     .content img {
         width: 70%;
-        padding-top: 50px;
+        padding-top: 35px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 35px;
     }
     
     .content h2 {
         padding: 25px;
+        text-align: center;
     }
 
     .content p {
@@ -478,6 +490,15 @@
 
     .content ul {
         padding-left: 50px;
+    }
+
+    .content video {
+        width: 70%;
+        padding-top: 35px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 35px;
     }
   }
   
