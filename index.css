@@ -36,7 +36,7 @@ footer img:hover {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
 
   body {
     display: flex;
@@ -84,6 +84,7 @@ footer img:hover {
 
   nav {
     display: block;
+    padding-bottom: 3em;
   }
 
   nav a {
@@ -97,14 +98,8 @@ footer img:hover {
     float: left;
     overflow: hidden;
     text-transform: uppercase;
-  }
-
-  nav:last-child {
-    margin-right: -15px;
-  }
-
-  nav {
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   nav a:hover {
@@ -116,7 +111,7 @@ footer img:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
     height: auto;
     padding-bottom: 15px;
   }
@@ -153,7 +148,7 @@ footer img:hover {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
 
   body {
     text-align: center;
@@ -249,18 +244,15 @@ footer img:hover {
   }
 
   .contact {
-    width: 100%;
     display: inline;
   }
 
   .contact img {
-    display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 120px;
-    height: auto;
     padding: 25px 25px;
-
+    height: auto;
+    width: 15%;
   }
 
   footer p {
@@ -371,18 +363,15 @@ footer img:hover {
   }
 
   .contact {
-    width: 100%;
     display: inline;
   }
 
   .contact img {
-    display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 120px;
-    height: auto;
     padding: 25px 25px;
-
+    height: auto;
+    width: 10%;
   }
 
   footer p {

@@ -31,166 +31,7 @@ footer img:hover {
   opacity: 75%;
 }
 
-@media only screen and (max-width: 400px) {
-  body {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  h1 {
-    color: #3ea3ca;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 42px;
-    padding-top: 20px;
-    flex: 100%;
-  }
-
-  h2 {
-    color: #515050;
-    text-align: center;
-    font-size: 27px;
-    overflow: hidden;
-  }
-
-  h2 a {
-    text-decoration: none;
-    color: #515050;
-  }
-
-  h3 {
-    font-size: 24px;
-    text-align: center;
-    color: #3ea3ca;
-  }
-
-  .content p {
-    padding: 10px 10px;
-    text-align: center;
-    color: #707070;
-    padding-bottom: 20px;
-    font-size: 20px;
-  }
-
-  nav {
-    display: block;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #515050;
-    display: block;
-    padding: 15px;
-  }
-
-  nav li {
-    float: left;
-    overflow: hidden;
-    text-transform: uppercase;
-  }
-
-  nav:last-child {
-    margin-right: -15px;
-  }
-
-  nav {
-    float: right;
-  }
-
-  nav a:hover {
-    color: #3ea3ca;
-    transition: 0.35s;
-  }
-
-  hr {
-    color: #898989;
-  }
-
-  h4 {
-    text-transform: uppercase;
-    color: #777777;
-    text-align: center;
-    padding: 20px;
-    font-size: 35px;
-    font-weight: 300;
-  }
-
-  footer img {
-    width: 20%;
-    margin-left: 20%;
-    transition: all .2s ease-in-out;
-  }
-
-  footer img:hover {
-    transform: scale(0.9);
-  }
-
-  footer p {
-    font-size: 14px;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    height: auto;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-radius: 50%;
-  }
-
-  button {
-    background-color: #3ea3ca;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 10%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 50px;
-    transition: all .2s ease-in-out;
-  }
-
-  .resume {
-    padding-bottom: 15px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .email {
-    padding-bottom: 15px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .buttons a {
-    text-decoration: none;
-    color: #F7F7F7;
-    background-color: #3ea3ca;
-  }
-
-  button:hover {
-    transform: scale(1.1);
-  }
-}
-
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   body {
     text-align: center;
   }
@@ -314,18 +155,14 @@ footer img:hover {
   }
 
   .contact {
-    width: 100%;
     display: inline;
   }
 
   .contact img {
-    display: inline;
     margin-left: auto;
-    margin-right: auto;
-    width: 120px;
-    height: auto;
     padding: 25px 25px;
-
+    height: auto;
+    width: 15%;
   }
 
   footer p {
@@ -388,7 +225,6 @@ footer img:hover {
     color: #707070;
     font-size: 23px;
     float: right;
-    display: inline-block;
     width: 60%;
     padding-top: 100px;
     padding-left: 50px;
@@ -489,13 +325,11 @@ footer img:hover {
   }
 
   .contact img {
-    display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 120px;
-    height: auto;
     padding: 25px 25px;
-
+    height: auto;
+    width: 10%;
   }
 
   footer p {
@@ -506,5 +340,157 @@ footer img:hover {
   footer {
     display: inline-block;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: #3ea3ca;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-top: 20px;
+    flex: 100%;
+  }
+
+  h2 {
+    color: #515050;
+    text-align: center;
+    font-size: 27px;
+    overflow: hidden;
+  }
+
+  h2 a {
+    text-decoration: none;
+    color: #515050;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #3ea3ca;
+  }
+
+  .content p {
+    padding: 10px 10px;
+    text-align: center;
+    color: #707070;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+
+  nav {
+    display: block;
+    padding-bottom: 3em !important;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #515050;
+    display: block;
+    padding: 15px;
+  }
+
+  nav li {
+    float: left;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+
+  nav a:hover {
+    color: #3ea3ca;
+    transition: 0.35s;
+  }
+
+  hr {
+    color: #898989;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: #777777;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 300;
+  }
+
+  footer img {
+    width: 20%;
+    margin-left: 20%;
+    transition: all .2s ease-in-out;
+  }
+
+  footer img:hover {
+    transform: scale(0.9);
+  }
+
+  footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 50%;
+  }
+
+  button {
+    background-color: #3ea3ca;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+  }
+
+  .resume {
+    padding-bottom: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .email {
+    padding-bottom: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    color: #F7F7F7;
+    background-color: #3ea3ca;
+  }
+
+  button:hover {
+    transform: scale(1.1);
   }
 }
